@@ -22,6 +22,8 @@ The model reads raw news text and extracts:
 - `train.jsonl`, `test.jsonl` – Prompt-formatted SFT training data
 - `train.py` – Fine-tuning pipeline
 - `inference.py` – Generate structured info from new articles
+- `config.py` – Model and training constants
+-`data_prep.py` – Dataset formatting and train/test splitting-
 - `crime-extractor-lora/` – Fine-tuned model directory (not committed)
 
 ## 🚀 Inference Example
